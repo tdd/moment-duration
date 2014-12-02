@@ -48,6 +48,9 @@ var d = new Date(2013, 10, 6);
 (3).months().after(d)
 (1).year().before(d)
 
+3..months().after(d)
+1..year().before(d)
+
 var om = 1, ow = 2;
 om.months().fromNow()
 ow.weeks().ago()
